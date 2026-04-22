@@ -1,0 +1,7 @@
+for t in range(4):
+    for y in range(5):
+        if (y == 2) or (t == 1 or t == 2) and (y == 1 or y == 3):
+            print("0", end=" ")
+        else:
+            print("X", end=" ")
+    print()
