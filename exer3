@@ -1,0 +1,15 @@
+text = input("Input Random Sentence: ")
+
+total_char = 0
+total_word = 0
+chara_pertama = " "
+
+for char in text:
+    if char != " ":
+        total_char += 1
+        if chara_pertama == " ":
+            total_word += 1
+    chara_pertama = char
+    
+print("Total Character", total_char)
+print("Total Words", total_word)
